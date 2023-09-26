@@ -38,6 +38,7 @@ jobs:
     - uses : actions/upload-artifact@v3
       with :
        name: buildArtifact
+       path : target/*.war
        
     - name: Deployment
       # run : echo "deployment Stage"
