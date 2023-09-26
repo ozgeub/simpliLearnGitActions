@@ -35,10 +35,9 @@ jobs:
     runs-on: ubuntu-latest
     needs : build #dependencies ekledi
     steps:
-    - uses : actions/upload-artifact@v3
+    - uses : actions/download-artifact@v3
       with :
        name: buildArtifact
-       path : target/*.war
        
     - name: Deployment
       # run : echo "deployment Stage"
