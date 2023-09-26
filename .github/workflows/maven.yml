@@ -32,4 +32,4 @@ jobs:
 
     steps:
      - name: Deployment
-     - run : echo "deployment Stage"
+       run : echo "Executing Deployment"
