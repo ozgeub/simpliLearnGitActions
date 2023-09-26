@@ -49,7 +49,7 @@ jobs:
       
         
   deploy_dev:
-    if: github.ref_name =='develop' #condition ekledi , sadece masterdansa deploy et diye or github.ref.name == 'master'
+    if: github.ref =='develop' #condition ekledi , sadece masterdansa deploy et diye or github.ref.name == 'master'
     runs-on: ubuntu-latest
     needs : build #dependencies ekledi
     steps:
