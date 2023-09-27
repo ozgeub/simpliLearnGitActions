@@ -1,4 +1,3 @@
-
 name: Java CI with Maven
 
 on:
@@ -45,13 +44,13 @@ jobs:
        WELCOME: "ssh scp ssh pipelines"
        LASTSSH: "Doing something after copying"
       with:
-       host: 'https://ozgeuysalvodafosl0034.simplilearnlabs.com' #simplilearnden aldı RDP connect bilgileri 
-       user: 'ozgeuysalvodafo'
-       pass: 'vodafo0A@hjnzu'
-       port: 42001
+       host: 'anujsharma401yasl0034.simplilearnlabs.com'
+       user: 'anujsharma401ya'
+       pass: 'a401ya0A@eu7a5'
+       port: 42006
        connect_timeout: 10s
-       first_ssh: | #simplilearn terminalde tmp/Docker/DockerFiles var. 
-        rm -rf /tmp/Docker  
+       first_ssh: |
+        rm -rf /tmp/Docker
         mkdir -p /tmp/Docker
        scp: |
         'Dockerfile' => /tmp/Docker
