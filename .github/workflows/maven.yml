@@ -1,3 +1,22 @@
+Skip to content
+anujdevopslearn
+/
+GitHubActions
+
+Code
+Issues
+Pull requests
+Actions
+Projects
+Security
+Insights
+Java CI with Maven
+Java CI with Maven #115
+Jobs
+Run details
+Workflow file for this run
+.github/workflows/maven.yml at c964f00
+
 name: Java CI with Maven
 
 on:
@@ -56,3 +75,4 @@ jobs:
         'Dockerfile' => /tmp/Docker
        last_ssh: |
         docker run -d ${{ secrets.DOCKERHUB_USERNAME }}/planview:latest 
+Update maven.yml · anujdevopslearn/GitHubActions@c964f00
